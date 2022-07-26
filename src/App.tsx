@@ -3,7 +3,8 @@ import "./App.css";
 
 import Header from "./components/Header";
 import LeftMenu from "./components/LeftMenu";
-import Main from "./components/Main";
+import MainSection from "./components/MainSection";
+
 
 function App(){
   return (
@@ -11,7 +12,7 @@ function App(){
 
       <Header /> 
       <LeftMenu/>
-      <Main/>
+      <MainSection/>
     </div>
   )
 }
